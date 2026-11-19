@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rupender Saharan | AI & ML Developer</title>
+<meta name="description" content="AI & ML student building real products with Python, FastAPI and React.">
+<style>
+  :root{--bg:#0b0f17;--card:#121826;--line:#1f2937;--text:#e5e7eb;--muted:#94a3b8;--accent:#38bdf8;--accent2:#a78bfa}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.6}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:960px;margin:0 auto;padding:0 20px}
+  nav{position:sticky;top:0;background:rgba(11,15,23,.85);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:10}
+  nav .wrap{display:flex;justify-content:space-between;align-items:center;height:56px}
+  nav b{font-size:1.05rem}
+  nav ul{display:flex;gap:18px;list-style:none;font-size:.9rem}
+  nav ul a{color:var(--muted)}
+  nav ul a:hover{color:var(--text);text-decoration:none}
+  section{padding:70px 0 10px}
+  h2{font-size:1.6rem;margin-bottom:24px}
+  h2 span{color:var(--accent)}
+  .hero{padding:80px 0 40px}
+  .hero-top{display:flex;align-items:center;justify-content:space-between;gap:32px;flex-wrap:wrap-reverse}
+  .photo{width:180px;height:180px;border-radius:50%;object-fit:cover;border:3px solid var(--accent);box-shadow:0 0 0 6px rgba(56,189,248,.15)}
+  .hero small{color:var(--accent);letter-spacing:.1em;text-transform:uppercase;font-size:.8rem}
+  .hero h1{font-size:clamp(2.2rem,6vw,3.6rem);line-height:1.1;margin:10px 0}
+  .grad{background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .hero p{color:var(--muted);max-width:600px;margin-bottom:24px}
+  .btns{display:flex;flex-wrap:wrap;gap:12px}
+  .btn{padding:10px 18px;border-radius:10px;border:1px solid var(--line);color:var(--text);font-size:.9rem}
+  .btn.primary{background:var(--accent);color:#06121c;border-color:var(--accent);font-weight:600}
+  .btn:hover{text-decoration:none;transform:translateY(-1px)}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-top:40px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+  .stat b{display:block;font-size:1.6rem;color:var(--accent)}
+  .stat span{color:var(--muted);font-size:.85rem}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;transition:.2s}
+  .card:hover{border-color:var(--accent);transform:translateY(-3px)}
+  .card h3{font-size:1.05rem;margin-bottom:6px}
+  .card p,.card li{color:var(--muted);font-size:.9rem}
+  .card ul{padding-left:18px;margin:10px 0}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+  .tag{font-size:.75rem;padding:3px 10px;border-radius:999px;background:#0f1a2b;border:1px solid var(--line);color:var(--accent)}
+  .tl{border-left:2px solid var(--line);margin-left:6px}
+  .job{position:relative;padding:0 0 26px 22px}
+  .job:before{content:"";position:absolute;left:-7px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--accent)}
+  .job h3{font-size:1rem}
+  .job .meta{color:var(--muted);font-size:.8rem;margin-bottom:6px}
+  .job ul{padding-left:18px;color:var(--muted);font-size:.9rem}
+  .skills{display:flex;flex-wrap:wrap;gap:8px}
+  .skills .tag{font-size:.82rem;padding:5px 12px}
+  .contact{text-align:center;padding:70px 0}
+  footer{border-top:1px solid var(--line);color:var(--muted);text-align:center;padding:24px;font-size:.8rem;margin-top:40px}
+  @media(max-width:640px){nav ul{display:none}.hero-top{justify-content:center}}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap">
+  <b>Rupu<span style="color:var(--accent)">.</span></b>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#achievements">Achievements</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</div></nav>
+
+<header class="wrap hero" id="top">
+  <div class="hero-top">
+    <div>
+      <small>AI & ML Student · Developer</small>
+      <h1>Hi, I'm <span class="grad">Rupender Saharan</span></h1>
+      <p>I build things that work: privacy-first apps, backend systems and AI-powered tools with Python, FastAPI and React. Looking for an AI/ML or software internship where I can ship real products.</p>
+      <div class="btns">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn" href="resume.pdf" target="_blank" rel="noopener">Resume</a>
+        <a class="btn" href="https://github.com/grupa7550-svg" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/rupender-saharan-" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://codolio.com/profile/Rupender" target="_blank" rel="noopener">Codolio</a>
+      </div>
+    </div>
+    <img class="photo" src="photo.jpg" alt="Rupender Saharan">
+  </div>
+  <div class="stats">
+    <div class="stat"><b>700+</b><span>Problems solved</span></div>
+    <div class="stat"><b>43</b><span>Coding contests</span></div>
+    <div class="stat"><b>1764</b><span>DSA rating</span></div>
+    <div class="stat"><b>3rd</b><span>Prize, SPARKATHON-2K26</span></div>
+  </div>
+</header>
+
+<section id="about"><div class="wrap">
+  <h2><span>01.</span> About</h2>
+  <p style="color:var(--muted);max-width:760px">
+    I'm a B.E. Computer Science & Engineering (AI & ML) student at KIT – Kalaignar Karunanidhi Institute of Technology, Coimbatore (2025–2029, CGPA 7.55). I've built a privacy-first document wallet with OCR, a smart-agriculture platform used for live weather insights, a graph-database family tree, and a multilingual AR heritage site. I enjoy backend engineering, data and AI agents, and I practise DSA regularly on CodeChef, Codeforces and LeetCode.
+  </p>
+</div></section>
+
+<section id="projects"><div class="wrap">
+  <h2><span>02.</span> Projects</h2>
+  <div class="grid">
+    <article class="card">
+      <h3>DocuGate: Privacy-First Digital Document Wallet</h3>
+      <div class="tags"><span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">PostgreSQL</span><span class="tag">SQLAlchemy</span><span class="tag">JWT</span><span class="tag">OCR</span></div>
+      <ul>
+        <li>Secure storage and management of personal documents</li>
+        <li>FastAPI backend with PostgreSQL and JWT authentication</li>
+        <li>Upload, listing, validation and deletion of documents</li>
+        <li>OCR text extraction and document classification design</li>
+        <li>Consent-based sharing: approve specific documents, not the whole vault</li>
+      </ul>
+      <a href="YOUR_DOCUGATE_LINK" target="_blank" rel="noopener">View project →</a>
+    </article>
+
+    <article class="card">
+      <h3>Restaurant Management System</h3>
+      <div class="tags"><span class="tag">Python</span><span class="tag">Django REST</span><span class="tag">PostgreSQL</span><span class="tag">React</span></div>
+      <ul>
+        <li>REST APIs for menu, orders, tables, reservations and inventory</li>
+        <li>Automatic bill calculation and order status tracking</li>
+        <li>Table availability checks and reservation management</li>
+        <li>Inventory auto-updates from orders, plus admin controls</li>
+        <li>Architecture ready for daily sales reports and low-stock alerts</li>
+      </ul>
+      <a href="YOUR_RESTAURANT_LINK" target="_blank" rel="noopener">View project →</a>
+    </article>
+
+    <article class="card">
+      <h3>Smart Agriculture Platform</h3>
+      <p>Platform used for live weather insights for farmers.</p>
+      <div class="tags"><span class="tag">Add stack</span></div>
+      <a href="YOUR_AGRI_LINK" target="_blank" rel="noopener">View project →</a>
+    </article>
+
+    <article class="card">
+      <h3>Graph-Database Family Tree</h3>
+      <p>Family relationships modelled and queried in a graph database.</p>
+      <div class="tags"><span class="tag">Neo4j</span><span class="tag">Cypher</span></div>
+      <a href="YOUR_FAMILYTREE_LINK" target="_blank" rel="noopener">View project →</a>
+    </article>
+
+    <article class="card">
+      <h3>Multilingual AR Heritage Site</h3>
+      <p>Heritage experience with augmented reality and multiple languages.</p>
+      <div class="tags"><span class="tag">Add stack</span></div>
+      <a href="YOUR_AR_LINK" target="_blank" rel="noopener">View project →</a>
+    </article>
+  </div>
+</div></section>
+
+<section id="experience"><div class="wrap">
+  <h2><span>03.</span> Experience</h2>
+  <div class="tl">
+    <div class="job">
+      <h3>Java Development Intern · Cognifyz IT Solutions Pvt. Ltd.</h3>
+      <div class="meta">Oct 2026 – Nov 2026 · Remote</div>
+      <ul>
+        <li>Developed Java programs applying OOP: encapsulation, inheritance, polymorphism, abstraction</li>
+        <li>Completed assigned development tasks with tested, documented code</li>
+      </ul>
+    </div>
+    <div class="job">
+      <h3>Backend Development Intern · CodeAlpha</h3>
+      <div class="meta">Oct 2026 – Nov 2026 · Remote</div>
+      <ul>
+        <li>Built backend applications using Python and SQL</li>
+        <li>Designed database schemas and wrote server-side logic for practical projects</li>
+      </ul>
+    </div>
+    <div class="job">
+      <h3>AI & ML Intern · Codec Technologies</h3>
+      <div class="meta">Feb 2026 – Mar 2026 · India (Hybrid)</div>
+      <ul>
+        <li>Used Python (NumPy, Pandas) for data cleaning, preprocessing and EDA on real-world datasets</li>
+        <li>Designed and documented data-analysis and ML experiments in Jupyter Notebook</li>
+      </ul>
+    </div>
+  </div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+  <h2><span>04.</span> Skills</h2>
+  <div class="skills" id="skillList"></div>
+</div></section>
+
+<section id="achievements"><div class="wrap">
+  <h2><span>05.</span> Achievements & Certifications</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Achievements</h3>
+      <ul>
+        <li>3rd Prize, SPARKATHON-2K26 (24-hour national hackathon, CSI College of Engineering, Ketti)</li>
+        <li>Participated in Hack Karnataka 2025 (30-hour national hackathon, KLE Tech University, Hubballi)</li>
+        <li>700+ problems solved, 43 contests across CodeChef, Codeforces and LeetCode</li>
+        <li>1764 DSA rating, 2-star on CodeChef</li>
+      </ul>
+      <a href="https://codolio.com/profile/Rupender" target="_blank" rel="noopener">Codolio profile →</a>
+    </div>
+    <div class="card">
+      <h3>Certifications</h3>
+      <ul>
+        <li><b>MongoDB:</b> RAG, Vector Search, AI Data Strategy, AI Agents, Building an App with Code Agents</li>
+        <li><b>IBM SkillsBuild & Simplilearn:</b> Machine Learning with Python (Dec 2025)</li>
+        <li><b>Cisco Networking Academy:</b> Python Essentials 1 & 2 (Sep 2025)</li>
+      </ul>
+    </div>
+  </div>
+</div></section>
+
+<section class="contact" id="contact"><div class="wrap">
+  <h2><span>06.</span> Let's work together</h2>
+  <p style="color:var(--muted);margin-bottom:20px">Open to AI/ML and software internships.</p>
+  <div class="btns" style="justify-content:center">
+    <a class="btn primary" href="mailto:rupenderer@gmail.com">rupenderer@gmail.com</a>
+    <a class="btn" href="resume.pdf" target="_blank" rel="noopener">Resume</a>
+    <a class="btn" href="https://github.com/grupa7550-svg" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn" href="https://www.linkedin.com/in/rupender-saharan-" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn" href="https://codolio.com/profile/Rupender" target="_blank" rel="noopener">Codolio</a>
+  </div>
+</div></section>
+
+<footer>© <span id="yr"></span> Rupender Saharan · Coimbatore, India</footer>
+
+<script>
+  const skills = ["Python","Java","C","SQL","TypeScript","JavaScript","HTML","CSS","React","FastAPI","Django","Flask","REST APIs","Machine Learning","Data Science","NumPy","Pandas","Jupyter","RAG","Vector Search","AI Agents","OCR","MongoDB","Firebase Firestore","Neo4j","Cypher","PostgreSQL","DBMS","DSA","OOP","System Design","Computer Networks","Operating Systems","Git","GitHub"];
+  document.getElementById("skillList").innerHTML = skills.map(s => `<span class="tag">${s}</span>`).join("");
+  document.getElementById("yr").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
